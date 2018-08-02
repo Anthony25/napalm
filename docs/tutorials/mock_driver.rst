@@ -151,6 +151,7 @@ Mock an error
 
 The `mock` driver can raise an exception during a call, to simulate an error.
 An error definition is  actually a json composed of 3 keys:
+
     - `exception`: the exception type that will be raised
     - `args` and `kwargs`: parameters sent to the exception constructor
 
